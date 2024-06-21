@@ -23,6 +23,14 @@ function Item({ name, url }) {
         }
     }, [url]);
 
+    const handleClick = (e) => {
+        e.target.classList.add('clicked'); // Añadir clase temporalmente para el efecto
+        guardamePokemon({ name, url, image });
+        setTimeout(() => {
+            e.target.classList.remove('clicked'); // Remover clase después del efecto
+        }, 400);
+    }    
+
     return (
         <li className="favorito-item">
             {image ? (
@@ -35,7 +43,7 @@ function Item({ name, url }) {
             <Link to={`/pokemones/${name}`} className="pokemon-link">
                 <span>{name}</span>
             </Link>
-            <button onClick={() => guardamePokemon({ name, url, image })} className="agregar-favorito-boton">
+            <button onClick={handleClick} className="agregar-favorito-boton">
                 Agregar a Favoritos
             </button>
         </li>

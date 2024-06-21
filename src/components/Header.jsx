@@ -6,7 +6,7 @@ function Header() {
     return (
         <header className="header">
             <div className="logo">
-                <img src={logo} alt="Pokédex Logo" />
+                <a href="/"><img src={logo} alt="Pokédex Logo" /></a>
             </div>
             <nav>
                 <ul>

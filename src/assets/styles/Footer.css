@@ -1,12 +1,12 @@
-/* Estilos básicos para el pie de página */
+/* Estilos básicos para el footer */
 .footer {
-    background-color: #000; /* Cambiado a negro */
+    background-color: #000;
     padding: 20px 0;
     text-align: center;
     position: relative;
     bottom: 0;
     width: 100%;
-    color: #fff; /* Asegurar que el texto sea visible en fondo negro */
+    color: #fff;
 }
 
 .footer-content {
@@ -26,7 +26,7 @@
 
 .footer .social-media ul li a {
     text-decoration: none;
-    color: #fff; /* Asegurar que los enlaces sean visibles en fondo negro */
+    color: #fff; 
     font-weight: bold;
 }
 

@@ -7,7 +7,7 @@ function PokeFavoritos() {
 
     return (
         <div className="favoritos-container">
-            <h1>Tus Favoritos</h1>
+            <h1 className="titulo-fav">Tus Pokemones favoritos</h1>
             <ul className="favoritos-list">
                 {favoritos.map(favorito => (
                     <li key={favorito.name} className="favorito-item">

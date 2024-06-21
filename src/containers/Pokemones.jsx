@@ -10,7 +10,8 @@ function Pokemones() {
     }, []);
 
     return (
-        <>
+        <>  
+            <h1 className="titulo-poke">Pokedex</h1>
             <ul className="pokemones-list">
                 {pokemones.map((pokemon) => (
                     <Item key={pokemon.name} name={pokemon.name} url={pokemon.url} className="pokemon-item"/>

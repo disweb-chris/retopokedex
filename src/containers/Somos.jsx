@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from '../assets/styles/Somos.module.css';
-import chrisImage from '../assets/statics/banner-home.jpg'; 
-import nombre2Image from '../assets/statics/banner-home.jpg'; 
-import nombre3Image from '../assets/statics/banner-home.jpg'; 
-import equipoImage from '../assets/statics/banner-home.jpg'
+import chrisImage from '../assets/statics/equipo1.jpg'; 
+import nombre2Image from '../assets/statics/equipo2.jpg'; 
+import nombre3Image from '../assets/statics/equipo3.jpg'; 
+import equipoImage from '../assets/statics/equipo.jpg'
 
 const Somos = () => {
     return (
       <div className={styles.somosContainer}>
-        <div className={styles.header}>
+        <div className={styles.titulo}>
           <h1>¡Conoce a nuestro equipo!</h1>
           <p>Somos un grupo de apasionados por los Pokémon dedicados a traerte la mejor información.</p>
         </div>

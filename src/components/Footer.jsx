@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/Footer.css';
-import pokeballIcon from '../assets/statics/pokemon-logo.png'; // Asegúrate de tener un ícono de Pokeball en esta ruta
+import pokeballIcon from '../assets/statics/pokemon-logo.png';
 
 function Footer() {
     return (
@@ -16,7 +16,7 @@ function Footer() {
                 </div>
 
                 <div className="credits">
-                    <img src={pokeballIcon} alt="Pokeball Icon" />
+                    <a href="/"><img src={pokeballIcon} alt="Pokemon" /></a>
                     <p>Desarrollado por ChrisH</p>
                     <p>Créditos a The Pokémon Company y todos los entrenadores Pokémon del mundo.</p>
                 </div>

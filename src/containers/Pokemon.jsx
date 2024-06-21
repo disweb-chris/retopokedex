@@ -25,7 +25,7 @@ function Pokemon() {
 
         const respuesta = await axios.get(urlEspecie);
         const entradaDescripcion = respuesta.data.flavor_text_entries.find(entry => entry.language.name === "es");
-        setDescripcion(entradaDescripcion ? entradaDescripcion.flavor_text : "Descripción no disponible");
+        setDescripcion(entradaDescripcion ? entradaDescripcion.flavor_text : "La descripción de tu pokemon no esta disponible");
 
         console.log("Descripción: ", entradaDescripcion);
     };

@@ -11,8 +11,19 @@
     justify-content: center;
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 55px 0;
     width: 100%;
+}
+
+.titulo-fav, .titulo-poke {
+    color: #c0100d;
+    font-size: 2.5em;
+}
+
+.titulo-poke {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: -30px;
 }
 
 /* Estilos para los elementos individuales en ambas listas */
@@ -45,7 +56,7 @@
 .pokemon-image {
     width: 100px;
     height: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 /* Estilos para los botones */
@@ -58,6 +69,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 15px;
+    font-size: 1em;
 }
 
 .eliminar-boton:hover, .agregar-favorito-boton:hover {
@@ -102,11 +114,11 @@
 
 /* Estilos para el contenedor de detalles del Pokémon */
 .pokemonDetailContainer {
-    display: flex; /* Usar flexbox para crear dos columnas */
+    display: flex; 
     justify-content: center;
-    align-items: center; /* Alinear elementos al inicio */
+    align-items: center; 
     padding: 20px;
-    text-align: left; /* Alinear texto a la izquierda */
+    text-align: left;
     height: 80vh;
 }
 
@@ -114,14 +126,14 @@
 .pokemonImage {
     max-width: 100%;
     height: auto;
-    margin-left: 20px; /* Espacio entre la imagen y la descripción */
+    margin-left: 20px;
 }
 
 /* Estilos para el contenedor de texto */
 .textContainer {
-    max-width: 50%; /* Limitar el tamaño máximo al 50% del contenedor */
+    max-width: 50%; 
     display: flex;
-    flex-direction: column; /* Alinear el título y la descripción en columna */
+    flex-direction: column; 
 }
 
 /* Estilos para el nombre del Pokémon */
@@ -133,13 +145,13 @@
 
 /* Estilos para la descripción del Pokémon */
 .pokemonDescription {
-    font-size: 2.2em; /* Ajustar el tamaño de la fuente */
+    font-size: 2.2em; 
     text-align: center;
 }
 
 /* ---- Estilos para el efecto de clic ---- */
 .clicked {
-    animation: clickEffect 0.4s; /* Aplicar animación */
+    animation: clickEffect 0.4s;
 }
 
 /* Definición de la animación */

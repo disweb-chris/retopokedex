@@ -13,12 +13,12 @@ const Home = () => {
         </div>
       </section>
 
-      <section className={styles['app-description']}>
+      <section className={styles['app-descripcion']}>
         <h2>¿Qué es la Pokédex?</h2>
         <p>La Pokédex es tu guía completa para descubrir y aprender sobre todos los Pokémon. Navega, busca y encuentra información detallada sobre tus Pokémon favoritos.</p>
       </section>
 
-      <section className={styles['tips-tricks']}>
+      <section className={styles['tips-trucos']}>
         <h2>Consejos y Trucos</h2>
         <ul>
           <li><strong>Captura Pokémon Raros:</strong> Usa cebos y juega durante eventos especiales para aumentar tus posibilidades.</li>

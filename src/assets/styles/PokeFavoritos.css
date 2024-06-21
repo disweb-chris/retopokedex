@@ -1,0 +1,142 @@
+
+.favoritos-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la lista de favoritos y la lista de pokemones */
+.favoritos-list, .pokemones-list { 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* Estilos para los elementos individuales en ambas listas */
+.favorito-item, .pokemon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.favorito-item span, .pokemon-item span {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.favorito-item:hover, .pokemon-item:hover { 
+    background-color: #93909073;
+}
+
+/* Estilos para las imágenes */
+.pokemon-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los botones */
+.eliminar-boton, .agregar-favorito-boton {
+    background-color: #c0100d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.eliminar-boton:hover, .agregar-favorito-boton:hover {
+    background-color: #cbc32d;
+    color: black;
+}
+
+/* Estilos para los enlaces */
+.pokemon-link {
+    text-decoration: none;
+    color: inherit;
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+
+.pokemon-link:hover {
+    text-decoration: none;
+    color: #3663ad;
+}
+
+/* Estilos para el contenedor de detalles del Pokémon */
+.pokemonDetailContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para la imagen del Pokémon */
+.pokemonImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el nombre del Pokémon */
+.pokemonName {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Estilos para el contenedor de detalles del Pokémon */
+.pokemonDetailContainer {
+    display: flex; /* Usar flexbox para crear dos columnas */
+    justify-content: center;
+    align-items: center; /* Alinear elementos al inicio */
+    padding: 20px;
+    text-align: left; /* Alinear texto a la izquierda */
+    height: 80vh;
+}
+
+/* Estilos para la imagen del Pokémon */
+.pokemonImage {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px; /* Espacio entre la imagen y la descripción */
+}
+
+/* Estilos para el contenedor de texto */
+.textContainer {
+    max-width: 50%; /* Limitar el tamaño máximo al 50% del contenedor */
+    display: flex;
+    flex-direction: column; /* Alinear el título y la descripción en columna */
+}
+
+/* Estilos para el nombre del Pokémon */
+.pokemonName {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la descripción del Pokémon */
+.pokemonDescription {
+    font-size: 2.2em; /* Ajustar el tamaño de la fuente */
+    text-align: center;
+}
+
+
+
+

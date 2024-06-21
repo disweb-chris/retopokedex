@@ -1,0 +1,40 @@
+/* Estilos básicos para el pie de página */
+.footer {
+    background-color: #000; /* Cambiado a negro */
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #fff; /* Asegurar que el texto sea visible en fondo negro */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer .social-media ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .social-media ul li a {
+    text-decoration: none;
+    color: #fff; /* Asegurar que los enlaces sean visibles en fondo negro */
+    font-weight: bold;
+}
+
+.footer .credits p {
+    margin: 5px 0;
+}
+
+.footer .credits img {
+    height: 50px;
+    margin-bottom: 10px;
+}

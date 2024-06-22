@@ -11,7 +11,7 @@ import UsarContexto from "../context/UsarContexto";
 
 function App() {
     return ( 
-        <BrowserRouter>
+        <BrowserRouter basename="/retopokedex">
         <UsarContexto>
             <Layout>
             <Routes>

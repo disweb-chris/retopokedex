@@ -4,6 +4,13 @@
   margin: 0 auto;
 }
 
+.bannerImage {
+  width: 100%;
+  height: auto;
+  max-height: 500px; 
+  object-fit: cover;
+}
+
 .titulo {
   text-align: center;
   margin-bottom: 40px;
@@ -48,7 +55,7 @@
   height: 130px;
   border-radius: 50%;
   margin-bottom: 10px;
-  border: 2px solid #c0100d;
+  border: 1px solid #c0100d;
 }
 
 .equipoColumn h2 {
@@ -63,15 +70,20 @@
   padding: 0;
 }
 
-.equipoColumn li {
+.equipoColumn p {
   font-size: 1.2em;
   margin-bottom: 30px;
   line-height: 35px;
 }
 
+.equipoColumn span  {
+  font-weight: 600;
+  color: #3663ad;
+}
+
 .equipoImagenPrincipal {
   width: 100%;
   margin-top: 20px;
-  border-radius: 8px;
-  border: 2px solid #c0100d; 
+  border-radius: 15px;
+  box-shadow: 1px 2px 8px rgba(211, 30, 30, 0.189);
 }
